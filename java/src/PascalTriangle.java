@@ -4,25 +4,31 @@ import java.util.List;
 
 /**
  * @author fxbsujay@gmail.com
- * <p> Description: LeetCode YangHuiTriangle Problem solving ideas</p>
+ * <p> Description: Pascal's Triangle</p>
  * @version  23:21 2022/4/5
  * @since JDK1.8
  */
-public class YangHuiTriangle {
+public class PascalTriangle {
 
     /**
      * <p> 给定一个非负整数 numRows，生成「杨辉三角」的前 numRows 行 </p>
      * <p> 在「杨辉三角」中，每个数是它左上方和右上方的数的和 </p>
      *
+     * <p> Given an integer numRows, return the first numRows of Pascal's triangle. </p>
+     * <p> In Pascal's triangle, each number is the sum of the two numbers directly above it as shown : </p>
+     * <blockquote><pre>
      *             1
      *            1 1
      *           1 2 1
      *          1 3 3 1
      *         1 4 6 4 1
      *
-     * 示例 :
-     * 输入: numRows = 5
-     * 输出: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+     * Example :
+     *
+     * Input   : numRows = 5
+     *
+     * Output  : [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+     * </pre></blockquote>
      *
      * @param numRows 行数
      * @return 三角序列
