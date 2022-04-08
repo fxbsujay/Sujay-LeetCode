@@ -1,3 +1,5 @@
+package com.susu.java;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -71,8 +73,8 @@ public class PascalTriangle {
     }
 
     public static void main(String[] args) {
-        List<List<Integer>> generate = generate(2);
-        System.out.println(generate);
+        List<List<Integer>> result = generate(2);
+        System.out.println(result);
     }
 
 
