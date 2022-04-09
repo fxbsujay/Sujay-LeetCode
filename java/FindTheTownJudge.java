@@ -8,7 +8,6 @@ package com.susu.java;
  */
 public class FindTheTownJudge {
 
-
     /**
      * <p> 小镇里有 n 个人，按从 1 到 n 的顺序编号。传言称，这些人中有一个暗地里是小镇法官 </p>
      * <p> 如果小镇法官真的存在，那么: </p>
@@ -48,8 +47,7 @@ public class FindTheTownJudge {
         int[] outDegrees = new int[n + 1];
 
         for (int[] dge : trust) {
-            int in = dge[0];
-            int out = dge[1];
+            int in = dge[0],out = dge[1];
             ++inDegrees[in];
             ++outDegrees[out];
         }

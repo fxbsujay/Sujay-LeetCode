@@ -7,7 +7,7 @@
 # @Time         : 0:48 2022/4/10 
 # @File         : FindTheTownJudge.py
 # @Version      : Python 3.10
-# @Description  : 描述
+# @Description  : 找到小镇的法官
 --------------------
 """
 from collections import Counter
