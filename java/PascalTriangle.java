@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * @author fxbsujay@gmail.com
  * <p> Description: Pascal's Triangle</p>
- * @version  23:21 2022/4/5
+ * @version 23:21 2022/4/5
  * @since JDK1.8
  */
 public class PascalTriangle {
