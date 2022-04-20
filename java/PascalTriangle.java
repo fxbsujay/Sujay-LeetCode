@@ -13,6 +13,11 @@ import java.util.List;
 public class PascalTriangle {
 
     /**
+     * <h3> Description  : test demo</h3>
+     * <h3> Author       : fxbsujay@gmail.com</h3>
+     * <h3> create      : 23:21 2022/4/5</h3>
+     * <h3> update      : 23:21 2022/4/5</h3>
+     *
      * <p> 给定一个非负整数 numRows，生成「杨辉三角」的前 numRows 行 </p>
      * <p> 在「杨辉三角」中，每个数是它左上方和右上方的数的和 </p>
      *
@@ -31,7 +36,6 @@ public class PascalTriangle {
      *
      * Output  : [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
      * </pre></blockquote>
-     *
      * @param numRows 行数
      * @return 三角序列
      */
